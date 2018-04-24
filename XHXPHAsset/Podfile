@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target "XHXPHAsset" do
+
+pod 'SDWebImage'
+pod 'SDCycleScrollView','~> 1.75'
+end

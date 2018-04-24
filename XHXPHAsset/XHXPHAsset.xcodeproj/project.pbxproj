@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2808237525F7481308876CC6 /* libPods-XHXPHAsset.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A37C9DFC93890E401BFB9 /* libPods-XHXPHAsset.a */; };
 		F4895239208F158F00E917DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895238208F158F00E917DB /* AppDelegate.m */; };
 		F489523C208F158F00E917DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F489523B208F158F00E917DB /* ViewController.m */; };
 		F489523F208F158F00E917DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F489523D208F158F00E917DB /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E8A37C9DFC93890E401BFB9 /* libPods-XHXPHAsset.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHXPHAsset.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFC276334954A57F11A5BFB /* Pods-XHXPHAsset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHXPHAsset.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHXPHAsset/Pods-XHXPHAsset.release.xcconfig"; sourceTree = "<group>"; };
+		F23736CA0F5E479E2E87FB1E /* Pods-XHXPHAsset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHXPHAsset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHXPHAsset/Pods-XHXPHAsset.debug.xcconfig"; sourceTree = "<group>"; };
 		F4895234208F158F00E917DB /* XHXPHAsset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHXPHAsset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4895237208F158F00E917DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4895238208F158F00E917DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2808237525F7481308876CC6 /* libPods-XHXPHAsset.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36854FCFD1BD4355554D5213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8A37C9DFC93890E401BFB9 /* libPods-XHXPHAsset.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AC99CEDB5DAAD972E1EFF11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F23736CA0F5E479E2E87FB1E /* Pods-XHXPHAsset.debug.xcconfig */,
+				6EFC276334954A57F11A5BFB /* Pods-XHXPHAsset.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F489522B208F158F00E917DB = {
 			isa = PBXGroup;
 			children = (
 				F4895236208F158F00E917DB /* XHXPHAsset */,
 				F4895235208F158F00E917DB /* Products */,
+				3AC99CEDB5DAAD972E1EFF11 /* Pods */,
+				36854FCFD1BD4355554D5213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F489524A208F159000E917DB /* Build configuration list for PBXNativeTarget "XHXPHAsset" */;
 			buildPhases = (
+				BF440C09F8672A070A920AD4 /* [CP] Check Pods Manifest.lock */,
 				F4895230208F158F00E917DB /* Sources */,
 				F4895231208F158F00E917DB /* Frameworks */,
 				F4895232208F158F00E917DB /* Resources */,
+				290F59FE17B305D74B9D6619 /* [CP] Embed Pods Frameworks */,
+				D2B19B76E9A0155D4E39FF35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290F59FE17B305D74B9D6619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHXPHAsset/Pods-XHXPHAsset-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF440C09F8672A070A920AD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XHXPHAsset-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B19B76E9A0155D4E39FF35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHXPHAsset/Pods-XHXPHAsset-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4895230208F158F00E917DB /* Sources */ = {
@@ -281,15 +359,13 @@
 		};
 		F489524B208F159000E917DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23736CA0F5E479E2E87FB1E /* Pods-XHXPHAsset.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8WH8B8GR2;
 				INFOPLIST_FILE = XHXPHAsset/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koapu.XHXPHAsset;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +374,13 @@
 		};
 		F489524C208F159000E917DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFC276334954A57F11A5BFB /* Pods-XHXPHAsset.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8WH8B8GR2;
 				INFOPLIST_FILE = XHXPHAsset/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koapu.XHXPHAsset;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
