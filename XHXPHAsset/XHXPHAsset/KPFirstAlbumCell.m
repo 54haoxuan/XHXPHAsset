@@ -23,6 +23,7 @@
     _picArray = picArray;
     self.bannerView.localizationImageNamesGroup = picArray;
     self.bannerView.delegate = self;
+    self.bannerView.bannerImageViewContentMode = UIViewContentModeScaleAspectFill;
     self.bannerView.placeholderImage = [UIImage imageNamed:@"placeholder"];
 }
 #pragma mark - SDCycleScrollViewDelegate
