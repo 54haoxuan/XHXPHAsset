@@ -8,18 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2808237525F7481308876CC6 /* libPods-XHXPHAsset.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A37C9DFC93890E401BFB9 /* libPods-XHXPHAsset.a */; };
+		F46F946C20902676005BA923 /* KPFirstAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F946A20902676005BA923 /* KPFirstAlbumCell.m */; };
+		F46F946D20902676005BA923 /* KPFirstAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46F946B20902676005BA923 /* KPFirstAlbumCell.xib */; };
+		F46F947120902690005BA923 /* KPOtherAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F946F20902690005BA923 /* KPOtherAlbumCell.m */; };
+		F46F947220902690005BA923 /* KPOtherAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46F947020902690005BA923 /* KPOtherAlbumCell.xib */; };
 		F4895239208F158F00E917DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895238208F158F00E917DB /* AppDelegate.m */; };
 		F489523C208F158F00E917DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F489523B208F158F00E917DB /* ViewController.m */; };
 		F489523F208F158F00E917DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F489523D208F158F00E917DB /* Main.storyboard */; };
 		F4895241208F159000E917DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4895240208F159000E917DB /* Assets.xcassets */; };
 		F4895244208F159000E917DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4895242208F159000E917DB /* LaunchScreen.storyboard */; };
 		F4895247208F159000E917DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895246208F159000E917DB /* main.m */; };
+		F4ECC46C20916E5A006640A1 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECC46B20916E5A006640A1 /* Photos.framework */; };
+		F4ECC46E209183F3006640A1 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ECC46D209183F3006640A1 /* placeholder@2x.png */; };
+		F4ECC4712091A19F006640A1 /* NSDate+XHXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECC4702091A19F006640A1 /* NSDate+XHXExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E8A37C9DFC93890E401BFB9 /* libPods-XHXPHAsset.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHXPHAsset.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFC276334954A57F11A5BFB /* Pods-XHXPHAsset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHXPHAsset.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHXPHAsset/Pods-XHXPHAsset.release.xcconfig"; sourceTree = "<group>"; };
 		F23736CA0F5E479E2E87FB1E /* Pods-XHXPHAsset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHXPHAsset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHXPHAsset/Pods-XHXPHAsset.debug.xcconfig"; sourceTree = "<group>"; };
+		F46F946920902676005BA923 /* KPFirstAlbumCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPFirstAlbumCell.h; sourceTree = "<group>"; };
+		F46F946A20902676005BA923 /* KPFirstAlbumCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPFirstAlbumCell.m; sourceTree = "<group>"; };
+		F46F946B20902676005BA923 /* KPFirstAlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPFirstAlbumCell.xib; sourceTree = "<group>"; };
+		F46F946E20902690005BA923 /* KPOtherAlbumCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPOtherAlbumCell.h; sourceTree = "<group>"; };
+		F46F946F20902690005BA923 /* KPOtherAlbumCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPOtherAlbumCell.m; sourceTree = "<group>"; };
+		F46F947020902690005BA923 /* KPOtherAlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPOtherAlbumCell.xib; sourceTree = "<group>"; };
 		F4895234208F158F00E917DB /* XHXPHAsset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHXPHAsset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4895237208F158F00E917DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4895238208F158F00E917DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +43,10 @@
 		F4895243208F159000E917DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4895245208F159000E917DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4895246208F159000E917DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4ECC46B20916E5A006640A1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		F4ECC46D209183F3006640A1 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "placeholder@2x.png"; path = "../../../../Downloads/SDCycleScrollView-master/SDCycleScrollView/placeholder@2x.png"; sourceTree = "<group>"; };
+		F4ECC46F2091A19F006640A1 /* NSDate+XHXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+XHXExtension.h"; path = "../../../学习文件夹/百思不得姐/百思不得姐/Classes/Other-其他/Category/NSDate+XHXExtension.h"; sourceTree = "<group>"; };
+		F4ECC4702091A19F006640A1 /* NSDate+XHXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XHXExtension.m"; path = "../../../学习文件夹/百思不得姐/百思不得姐/Classes/Other-其他/Category/NSDate+XHXExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4ECC46C20916E5A006640A1 /* Photos.framework in Frameworks */,
 				2808237525F7481308876CC6 /* libPods-XHXPHAsset.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +65,7 @@
 		36854FCFD1BD4355554D5213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4ECC46B20916E5A006640A1 /* Photos.framework */,
 				0E8A37C9DFC93890E401BFB9 /* libPods-XHXPHAsset.a */,
 			);
 			name = Frameworks;
@@ -82,10 +101,19 @@
 		F4895236208F158F00E917DB /* XHXPHAsset */ = {
 			isa = PBXGroup;
 			children = (
+				F4ECC46F2091A19F006640A1 /* NSDate+XHXExtension.h */,
+				F4ECC4702091A19F006640A1 /* NSDate+XHXExtension.m */,
+				F4ECC46D209183F3006640A1 /* placeholder@2x.png */,
 				F4895237208F158F00E917DB /* AppDelegate.h */,
 				F4895238208F158F00E917DB /* AppDelegate.m */,
 				F489523A208F158F00E917DB /* ViewController.h */,
 				F489523B208F158F00E917DB /* ViewController.m */,
+				F46F946920902676005BA923 /* KPFirstAlbumCell.h */,
+				F46F946A20902676005BA923 /* KPFirstAlbumCell.m */,
+				F46F946B20902676005BA923 /* KPFirstAlbumCell.xib */,
+				F46F946E20902690005BA923 /* KPOtherAlbumCell.h */,
+				F46F946F20902690005BA923 /* KPOtherAlbumCell.m */,
+				F46F947020902690005BA923 /* KPOtherAlbumCell.xib */,
 				F489523D208F158F00E917DB /* Main.storyboard */,
 				F4895240208F159000E917DB /* Assets.xcassets */,
 				F4895242208F159000E917DB /* LaunchScreen.storyboard */,
@@ -156,6 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4895244208F159000E917DB /* LaunchScreen.storyboard in Resources */,
+				F46F947220902690005BA923 /* KPOtherAlbumCell.xib in Resources */,
+				F4ECC46E209183F3006640A1 /* placeholder@2x.png in Resources */,
+				F46F946D20902676005BA923 /* KPFirstAlbumCell.xib in Resources */,
 				F4895241208F159000E917DB /* Assets.xcassets in Resources */,
 				F489523F208F158F00E917DB /* Main.storyboard in Resources */,
 			);
@@ -220,7 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F489523C208F158F00E917DB /* ViewController.m in Sources */,
+				F4ECC4712091A19F006640A1 /* NSDate+XHXExtension.m in Sources */,
+				F46F947120902690005BA923 /* KPOtherAlbumCell.m in Sources */,
 				F4895247208F159000E917DB /* main.m in Sources */,
+				F46F946C20902676005BA923 /* KPFirstAlbumCell.m in Sources */,
 				F4895239208F158F00E917DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +399,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8WH8B8GR2;
 				INFOPLIST_FILE = XHXPHAsset/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.koapu.XHXPHAsset;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +417,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8WH8B8GR2;
 				INFOPLIST_FILE = XHXPHAsset/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.koapu.XHXPHAsset;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
